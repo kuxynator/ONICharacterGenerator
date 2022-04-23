@@ -1,0 +1,228 @@
+﻿<Window 
+	x:Class="Kux.ONICharacterGenerator.MainWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="ONI Character Generator" Height="450" Width="800">
+    <DockPanel>
+		<TextBox x:Name="NamesNextBox" DockPanel.Dock="Left" xml:space="preserve">Matteo
+Emilia
+Noah
+Hannah
+Leon
+Mia
+Finn
+Emma
+Elias
+Sophia
+Paul
+Mila
+Ben
+Lina
+Luca
+Ella
+Emil
+Lea
+Louis
+Marie
+Theo
+Clara
+Felix
+Leni
+Henry
+Lia
+Jonas
+Leonie
+Liam
+Emily
+Lukas
+Mathilda
+Leo
+Ida
+Anton
+Anna
+Jakob
+Frieda
+Maximilian
+Amelie
+Oskar
+Luisa
+Levi
+Lilly
+Moritz
+Maja
+Jannis
+Charlotte
+Milan
+Lena
+David
+Sophie
+Max
+Johanna
+Karl
+Lara
+Jonah
+Nele
+Lio
+Nora
+Mats
+Mira
+Mohammed
+Sarah
+Samuel
+Lotta
+Aaron
+Juna
+Adam
+Laura
+Alexander
+Elisa
+Jonathan
+Paula
+Linus
+Tilda
+Raphael
+Malia
+Julian
+Thea
+Niklas
+Maria
+Erik
+Romy
+Mika
+Melina
+Philipp
+Alina
+Milo
+Marlene
+Hannes
+Mara
+Leonard
+Elena
+Tom
+Helena
+Valentin
+Victoria
+Johann
+Carla
+Tim
+Luna
+Maxim
+Antonia
+Adrian
+Isabella
+Theodor
+Merle
+Joshua
+Elina
+Lian
+Zoe
+Nico
+Eva
+Marlon
+Amira
+Toni
+Julia
+Vincent
+Fiona
+Benjamin
+Luise
+Carlo
+Hailey
+Malik
+Paulina
+Jan
+Martha
+Kilian
+Finja
+Fabian
+Josephine
+Fiete
+Lisa
+Daniel
+Pia
+Konstantin
+Elli
+Simon
+Olivia
+Arthur
+Amalia
+Till
+Valentina
+Julius
+Jana
+Gabriel
+Anni
+Jannik
+Pauline
+Fritz
+Rosalie
+Mattis
+Carlotta
+Emilio
+Theresa
+Johannes
+Mina
+Lennard
+Liya
+Ole
+Maila
+Matti
+Ronja
+Arian
+Isabell
+Levin
+Aaliyah
+Malte
+Chiara
+Ludwig
+Lotte
+Nick
+Leyla
+Bruno
+Malea
+Benedikt
+Malina
+Luke
+Aurelia
+Nils
+Elisabeth
+Ali
+Amelia
+Lasse
+Alma
+Miran
+Jasmin
+Elian
+Lucy
+Ilyas
+Linda
+Lenny
+Katharina
+Thilo
+Liana
+Phil
+Magdalena
+Michael
+Ayla
+		</TextBox>
+		<StackPanel DockPanel.Dock="Top">
+			<Button Content="Generate" Click="GenerateButton_Click"></Button>
+		</StackPanel>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition/>
+				<RowDefinition/>
+			</Grid.RowDefinitions>
+			<Grid Grid.Row="0">
+				<TextBox x:Name="TemplateTextBox" FontFamily="Consolas" xml:space="preserve">"RandomM$COUNT$": {"Name":"$NAME$", "Gender":"$GENDER$", "Randomize":true, "Body":$BODY$, "Eyes":$EYES$, "Hair":$HAIR$, "HeadShape":$HEADSHAPE$, "StressTrait":"$STRESSTRAIT$", "JoyTrait":"$JOYTRAIT$", },
+				</TextBox>
+		    </Grid>
+			<Grid Grid.Row="1">
+				<TextBox x:Name="OutputTextBox" FontFamily="Consolas" ></TextBox>
+		    </Grid>
+	    </Grid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,13 @@
+﻿"DRACULA": {
+    "Name": "Dracula",
+    "Description": "This is the description for {0}.",
+    "Gender": "Male",
+    "StressTrait": "UglyCrier",
+    "JoyTrait": "SparkleStreaker",
+    "HeadShape": 1,
+    "Eyes": 5,
+    "Hair": 1,
+    "Body": 3,
+  },
+
+https://github.com/Barleytree/Dupery/wiki/Mod-Instruction-Manual
